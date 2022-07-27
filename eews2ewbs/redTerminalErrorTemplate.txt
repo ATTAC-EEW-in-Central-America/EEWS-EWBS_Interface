@@ -1,0 +1,28 @@
+Estimad@,
+
+Este mensaje es generado automáticamente en la computadora EWBS de ${COUNTRY} en la fecha y hora: ${DATETIME} (${DATETIMEUTC} UTC).
+
+La Terminal Roja no responde lo cual podría significar principalmente que la interfaz gráfica no está corriendo.
+Por favor verifica este extremo y si es así entonces se debe iniciar la misma desde el "Escritorio" haciendo doble click en:
+
+ewbsInserterTerm.exe
+
+Si por alguna razón este acceso directo no está en el escritorio entonces vaya la ruta:
+
+"C:\Program Files (x86)\TANABIKI\SetupEwbs\"
+
+y ejecute el ya mencionado archivo.
+
+Finalmente, es muy probable que el programa stompy2ewbs.py no esté corriendo en una terminal. Si estuviera corriendo entonces deberá ver algo como "CURRENT HEARTBEAT:" seguido del la fecha y hora que se actualiza cada 5 segundos. Si no es así, entonces, siga los
+siguientes pasos:
+
+1. abrir una consola de windows (cmd).
+2. ejecutar:
+    cd %userprofile%
+    cd ewbs-converter\eews2ewbs\
+    cmd /c C:\Python27\python.exe stompy2ewbs.py
+
+
+Gracias y saludos!
+
+NOTA: Recuerde que este es un mensaje AUTOMÁTICO, así que, por favor, no responda :)

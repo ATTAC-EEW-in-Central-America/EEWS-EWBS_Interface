@@ -1,0 +1,7 @@
+C:\Users\LaCuracao\Desktop\IDIOMAS\DEV_ESTUDIO\SANDBOX_DE_PROYECTOS\EWBSConsole\EWBSConsole\bin\Debug\EWBSConsole.exe.config
+C:\Users\LaCuracao\Desktop\IDIOMAS\DEV_ESTUDIO\SANDBOX_DE_PROYECTOS\EWBSConsole\EWBSConsole\bin\Debug\EWBSConsole.exe
+C:\Users\LaCuracao\Desktop\IDIOMAS\DEV_ESTUDIO\SANDBOX_DE_PROYECTOS\EWBSConsole\EWBSConsole\bin\Debug\EWBSConsole.pdb
+C:\Users\LaCuracao\Desktop\IDIOMAS\DEV_ESTUDIO\SANDBOX_DE_PROYECTOS\EWBSConsole\EWBSConsole\bin\Debug\CommandLine.dll
+C:\Users\LaCuracao\Desktop\IDIOMAS\DEV_ESTUDIO\SANDBOX_DE_PROYECTOS\EWBSConsole\EWBSConsole\bin\Debug\CommandLine.xml
+C:\Users\LaCuracao\Desktop\IDIOMAS\DEV_ESTUDIO\SANDBOX_DE_PROYECTOS\EWBSConsole\EWBSConsole\obj\Debug\EWBSConsole.exe
+C:\Users\LaCuracao\Desktop\IDIOMAS\DEV_ESTUDIO\SANDBOX_DE_PROYECTOS\EWBSConsole\EWBSConsole\obj\Debug\EWBSConsole.pdb

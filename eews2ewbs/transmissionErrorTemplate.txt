@@ -1,0 +1,35 @@
+Estimad@,
+
+Este mensaje es generado automáticamente en la computadora EWBS de ${COUNTRY} en la fecha y hora: ${DATETIME} (${DATETIMEUTC} UTC).
+
+La terminal roja no transmitió un mensaje de alerta. Esto puede ocurrir por dos razones:
+
+1. La terminal roja está caida
+2. Hay un problema INICIANDO LA TRANSMISIÓN.
+
+Para el primer caso verifique que la interfaz gráfica de la Terminal Roja esté corriendo. Si no lo está
+arranque con el acceso directo en el escritorio:
+
+ewbsInserterTerm.exe
+
+Si por alguna razón este acceso directo no está en el escritorio entonces vaya la ruta:
+
+"C:\Program Files (x86)\TANABIKI\SetupEwbs\"
+
+y ejecute en ya mencionado ejecutable.
+
+Para el segundo caso, debe realizar una verificación más detallada y hacer consultas respectivas al operador 
+de TV digital.
+
+Finalmente, y no está por demás, verifique si la linea de comando de windows está ejecutando el programa stompy2ewbs.py.
+Si está corriendo entonces verique por cualquier mensaje de error y si no está corriendo siga los siguientes pasos:
+
+1. abrir una consola de windows (cmd).
+2. ejecutar:
+    cd %userprofile%
+    cd ewbs-converter\eews2ewbs\
+    cmd /c C:\Python27\python.exe stompy2ewbs.py
+
+Gracias y saludos!
+
+NOTA: Recuerde que este es un mensaje AUTOMÁTICO, así que, por favor, no responda :)

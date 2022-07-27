@@ -1,0 +1,11 @@
+Estimad@,
+
+Este mensaje es generado automáticamente en la computadora EWBS de ${COUNTRY} en la fecha y hora: ${DATETIME} (${DATETIMEUTC} UTC).
+
+Se generó un error desconocido para el cual el sistema presenta el siguiente traceback:
+
+${ERRORMSG}
+
+Gracias y Saludos!
+
+NOTA: Recuerde que este es un mensaje AUTOMÁTICO, así que, por favor, no responda :)
