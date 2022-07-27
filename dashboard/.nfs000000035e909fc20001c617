@@ -1,0 +1,3 @@
+cd /home/fmassin/ewbs-converter/dashboard/ 
+git pull > update.log 2>&1
+/home/fmassin/anaconda3/bin/python dashboard_deltatimes.py html >> update.log 2>&1

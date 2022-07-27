@@ -1,346 +1,375 @@
 warning: redirecting to https://gitlab.seismo.ethz.ch/SED-EEW/ewbs-converter.git/
 fatal: close failed on standard output: Input/output error
 fatal: close failed on standard output: Input/output error
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: data returned contains 104914 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 104914 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: Resampled data contains 104914 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 104914
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: opening bz2 file: pickledata/scCostaRica
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 1395 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 1395
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsCostaRica
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 1395 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 1395
+DEBUG:root:2022-07-27 07:38:02(UTC) - PKLMANAGER: dfSC: 6975, dfAMQ: 209828, dfEWBS: 6975, deltaSC: 1395, deltaAMQ: 104914, deltaEWBS: 1395
+DEBUG:root:2022-07-27 07:38:03(UTC) - PKLMANAGER: Last Date and Time of data availability for Nicaragua 
+DEBUG:root:2022-07-27 07:38:03(UTC) - PKLMANAGER: reading the data for country Nicaragua from 2021-07-27 00:00:00+00:00 to 2022-07-27 07:37:44.007761+00:00 
+DEBUG:root:2022-07-27 07:38:03(UTC) - PKLMANAGER: Open data for the last year ...
+DEBUG:root:2022-07-27 07:38:03(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208Nicaragua
+DEBUG:root:2022-07-27 07:38:03(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaNicaragua
+DEBUG:root:2022-07-27 07:38:03(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLwNicaragua
+DEBUG:root:2022-07-27 07:38:03(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLmNicaragua
+DEBUG:root:2022-07-27 07:38:03(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLyNicaragua
 INFO:bokeh.io.state:Session output file 'dashboard_deltatimes.html' already exists, will be overwritten.
-DEBUG:root:2022-07-27 07:12:04(UTC) - DASHBOARD: this is Linux OS
+DEBUG:root:2022-07-27 07:38:05(UTC) - DASHBOARD: this is Linux OS
 Can't open display 
-DEBUG:root:2022-07-27 07:12:04(UTC) - DASHBOARD: histograms width and height are: 602 and 224
-DEBUG:root:2022-07-27 07:12:04(UTC) - DASHBOARD: timelines width and height are: 828 and 224
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: Last Date and Time of data availability for Costa Rica 
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: reading the data for country Costa Rica from 2022-07-26 07:12:04.417931+00:00 to 2022-07-27 07:12:04.417931+00:00 
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: opening today and yesterday file
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208CostaRica
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaCostaRica
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: data returned contains 1892 of rows and 2 of columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: applying filter based on datetime start and end
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: Applying the date and time filter....
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1445 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: Resampled data contains 1445 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: setting delta AMQ column for histogram
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1445
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: Loading Delta SC data...
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: opening bz2 file: pickledata/scCostaRica
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: applying datetime filter to delta SC
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 7 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: setting delta SC column for histogram
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 7
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: Loading Delta EWBS data...
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsCostaRica
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 7 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 7
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: dfSC: 35, dfAMQ: 2890, dfEWBS: 35, deltaSC: 7, deltaAMQ: 1445, deltaEWBS: 7
+DEBUG:root:2022-07-27 07:38:05(UTC) - DASHBOARD: histograms width and height are: 602 and 224
+DEBUG:root:2022-07-27 07:38:05(UTC) - DASHBOARD: timelines width and height are: 828 and 224
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Last Date and Time of data availability for Costa Rica 
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: reading the data for country Costa Rica from 2022-07-26 07:38:05.153633+00:00 to 2022-07-27 07:38:05.153633+00:00 
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening today and yesterday file
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208CostaRica
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaCostaRica
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data returned contains 1892 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1418 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Resampled data contains 1418 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1418
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/scCostaRica
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 7 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 7
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsCostaRica
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 7 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 7
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: dfSC: 35, dfAMQ: 2836, dfEWBS: 35, deltaSC: 7, deltaAMQ: 1418, deltaEWBS: 7
 INFO:numexpr.utils:Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
 INFO:numexpr.utils:NumExpr defaulting to 8 threads.
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: Last Date and Time of data availability for Nicaragua 
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: reading the data for country Nicaragua from 2022-07-26 07:12:04.417931+00:00 to 2022-07-27 07:12:04.417931+00:00 
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: opening today and yesterday file
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208Nicaragua
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaNicaragua
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: data returned contains 1901 of rows and 2 of columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: applying filter based on datetime start and end
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: Applying the date and time filter....
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1454 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: Resampled data contains 1454 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: setting delta AMQ column for histogram
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1454
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: Loading Delta SC data...
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: opening bz2 file: pickledata/scNicaragua
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: data returned contains 1671 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: applying datetime filter to delta SC
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 0 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: setting delta SC column for histogram
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 0
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: Loading Delta EWBS data...
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsNicaragua
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: data returned contains 1692 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 0 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 0
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: dfSC: 0, dfAMQ: 2908, dfEWBS: 0, deltaSC: 0, deltaAMQ: 1454, deltaEWBS: 0
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: Last Date and Time of data availability for El Salvador 
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: reading the data for country El Salvador from 2022-07-26 07:12:04.417931+00:00 to 2022-07-27 07:12:04.417931+00:00 
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: opening today and yesterday file
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208ElSalvador
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaElSalvador
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: data returned contains 1896 of rows and 2 of columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: applying filter based on datetime start and end
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: Applying the date and time filter....
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1452 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: Resampled data contains 1452 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: setting delta AMQ column for histogram
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1452
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: Loading Delta SC data...
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: opening bz2 file: pickledata/scElSalvador
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: applying datetime filter to delta SC
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 8 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: setting delta SC column for histogram
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 8
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: Loading Delta EWBS data...
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsElSalvador
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 8 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 8
-DEBUG:root:2022-07-27 07:12:04(UTC) - PKLMANAGER: dfSC: 40, dfAMQ: 2904, dfEWBS: 40, deltaSC: 8, deltaAMQ: 1452, deltaEWBS: 8
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: Last Date and Time of data availability for Costa Rica 
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: reading the data for country Costa Rica from 2022-07-26 07:12:05.015340+00:00 to 2022-07-27 07:12:05.015340+00:00 
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: opening today and yesterday file
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208CostaRica
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaCostaRica
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: data returned contains 1892 of rows and 2 of columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: applying filter based on datetime start and end
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: Applying the date and time filter....
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1445 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: Resampled data contains 1445 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: setting delta AMQ column for histogram
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1445
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: Loading Delta SC data...
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/scCostaRica
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: applying datetime filter to delta SC
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 7 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: setting delta SC column for histogram
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 7
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: Loading Delta EWBS data...
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsCostaRica
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 7 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 7
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: dfSC: 35, dfAMQ: 2890, dfEWBS: 35, deltaSC: 7, deltaAMQ: 1445, deltaEWBS: 7
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: Last Date and Time of data availability for Nicaragua 
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: reading the data for country Nicaragua from 2022-07-26 07:12:05.015340+00:00 to 2022-07-27 07:12:05.015340+00:00 
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: opening today and yesterday file
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208Nicaragua
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaNicaragua
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: data returned contains 1901 of rows and 2 of columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: applying filter based on datetime start and end
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: Applying the date and time filter....
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1454 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: Resampled data contains 1454 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: setting delta AMQ column for histogram
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1454
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: Loading Delta SC data...
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/scNicaragua
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: data returned contains 1671 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: applying datetime filter to delta SC
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 0 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: setting delta SC column for histogram
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 0
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: Loading Delta EWBS data...
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsNicaragua
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: data returned contains 1692 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 0 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 0
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: dfSC: 0, dfAMQ: 2908, dfEWBS: 0, deltaSC: 0, deltaAMQ: 1454, deltaEWBS: 0
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: Last Date and Time of data availability for El Salvador 
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: reading the data for country El Salvador from 2022-07-26 07:12:05.015340+00:00 to 2022-07-27 07:12:05.015340+00:00 
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: opening today and yesterday file
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208ElSalvador
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaElSalvador
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: data returned contains 1896 of rows and 2 of columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: applying filter based on datetime start and end
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: Applying the date and time filter....
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1452 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: Resampled data contains 1452 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: setting delta AMQ column for histogram
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1452
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: Loading Delta SC data...
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/scElSalvador
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: applying datetime filter to delta SC
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 8 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: setting delta SC column for histogram
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 8
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: Loading Delta EWBS data...
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsElSalvador
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 8 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 8
-DEBUG:root:2022-07-27 07:12:05(UTC) - PKLMANAGER: dfSC: 40, dfAMQ: 2904, dfEWBS: 40, deltaSC: 8, deltaAMQ: 1452, deltaEWBS: 8
-DEBUG:root:2022-07-27 07:12:05(UTC) - GRAPHGEN: No enough data for deltaSC histogram for Nicaragua
-DEBUG:root:2022-07-27 07:12:05(UTC) - GRAPHGEN: No enough data for deltaEWBS histogram for Nicaragua
-DEBUG:root:2022-07-27 07:12:05(UTC) - GRAPHGEN: No data for delta SC timeline for Nicaragua
-DEBUG:root:2022-07-27 07:12:06(UTC) - GRAPHGEN: No data for delta EWBS timeline for Nicaragua
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: Last Date and Time of data availability for Costa Rica 
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: reading the data for country Costa Rica from 2022-07-26 07:12:06.207549+00:00 to 2022-07-27 07:12:06.207549+00:00 
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: opening today and yesterday file
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208CostaRica
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaCostaRica
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: data returned contains 1892 of rows and 2 of columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: applying filter based on datetime start and end
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: Applying the date and time filter....
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1445 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: Resampled data contains 1445 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: setting delta AMQ column for histogram
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1445
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: Loading Delta SC data...
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/scCostaRica
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: applying datetime filter to delta SC
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 7 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: setting delta SC column for histogram
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 7
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: Loading Delta EWBS data...
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsCostaRica
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 7 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 7
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: dfSC: 35, dfAMQ: 2890, dfEWBS: 35, deltaSC: 7, deltaAMQ: 1445, deltaEWBS: 7
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: Last Date and Time of data availability for Nicaragua 
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: reading the data for country Nicaragua from 2022-07-26 07:12:06.207549+00:00 to 2022-07-27 07:12:06.207549+00:00 
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: opening today and yesterday file
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208Nicaragua
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaNicaragua
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: data returned contains 1901 of rows and 2 of columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: applying filter based on datetime start and end
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: Applying the date and time filter....
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1454 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: Resampled data contains 1454 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: setting delta AMQ column for histogram
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1454
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: Loading Delta SC data...
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/scNicaragua
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: data returned contains 1671 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: applying datetime filter to delta SC
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 0 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: setting delta SC column for histogram
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 0
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: Loading Delta EWBS data...
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsNicaragua
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: data returned contains 1692 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 0 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 0
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: dfSC: 0, dfAMQ: 2908, dfEWBS: 0, deltaSC: 0, deltaAMQ: 1454, deltaEWBS: 0
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: Last Date and Time of data availability for El Salvador 
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: reading the data for country El Salvador from 2022-07-26 07:12:06.207549+00:00 to 2022-07-27 07:12:06.207549+00:00 
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: opening today and yesterday file
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208ElSalvador
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaElSalvador
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: data returned contains 1896 of rows and 2 of columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: applying filter based on datetime start and end
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: Applying the date and time filter....
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1452 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: Resampled data contains 1452 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: setting delta AMQ column for histogram
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1452
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: Loading Delta SC data...
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/scElSalvador
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: applying datetime filter to delta SC
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 8 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: setting delta SC column for histogram
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 8
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: Loading Delta EWBS data...
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsElSalvador
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 8 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 8
-DEBUG:root:2022-07-27 07:12:06(UTC) - PKLMANAGER: dfSC: 40, dfAMQ: 2904, dfEWBS: 40, deltaSC: 8, deltaAMQ: 1452, deltaEWBS: 8
-DEBUG:root:2022-07-27 07:12:06(UTC) - GRAPHGEN: No enough data for deltaSC histogram for Nicaragua
-DEBUG:root:2022-07-27 07:12:07(UTC) - GRAPHGEN: No enough data for deltaEWBS histogram for Nicaragua
-DEBUG:root:2022-07-27 07:12:07(UTC) - GRAPHGEN: No data for delta SC timeline for Nicaragua
-DEBUG:root:2022-07-27 07:12:07(UTC) - GRAPHGEN: No data for delta EWBS timeline for Nicaragua
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: Last Date and Time of data availability for Costa Rica 
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: reading the data for country Costa Rica from 2022-07-27 00:00:00+00:00 to 2022-07-27 07:12:07.382353+00:00 
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: opening today's file
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208CostaRica
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: data returned contains 419 of rows and 2 of columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: applying filter based on datetime start and end
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: Applying the date and time filter....
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 419 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: Resampled data contains 419 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: setting delta AMQ column for histogram
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 419
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: Loading Delta SC data...
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/scCostaRica
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: applying datetime filter to delta SC
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 3 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: setting delta SC column for histogram
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 3
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: Loading Delta EWBS data...
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsCostaRica
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 3 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 3
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: dfSC: 15, dfAMQ: 838, dfEWBS: 15, deltaSC: 3, deltaAMQ: 419, deltaEWBS: 3
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: Last Date and Time of data availability for Nicaragua 
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: reading the data for country Nicaragua from 2022-07-27 00:00:00+00:00 to 2022-07-27 07:12:07.382353+00:00 
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: opening today's file
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208Nicaragua
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: data returned contains 423 of rows and 2 of columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: applying filter based on datetime start and end
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: Applying the date and time filter....
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 423 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: Resampled data contains 423 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: setting delta AMQ column for histogram
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 423
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: Loading Delta SC data...
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/scNicaragua
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: data returned contains 1671 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: applying datetime filter to delta SC
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 0 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: setting delta SC column for histogram
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 0
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: Loading Delta EWBS data...
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsNicaragua
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: data returned contains 1692 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 0 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 0
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: dfSC: 0, dfAMQ: 846, dfEWBS: 0, deltaSC: 0, deltaAMQ: 423, deltaEWBS: 0
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: Last Date and Time of data availability for El Salvador 
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: reading the data for country El Salvador from 2022-07-27 00:00:00+00:00 to 2022-07-27 07:12:07.382353+00:00 
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: opening today's file
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208ElSalvador
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: data returned contains 440 of rows and 2 of columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: applying filter based on datetime start and end
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: Applying the date and time filter....
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 440 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: Resampled data contains 440 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: setting delta AMQ column for histogram
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 440
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: Loading Delta SC data...
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/scElSalvador
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: applying datetime filter to delta SC
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 2 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: setting delta SC column for histogram
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 2
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: Loading Delta EWBS data...
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsElSalvador
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 2 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 2
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: dfSC: 10, dfAMQ: 880, dfEWBS: 10, deltaSC: 2, deltaAMQ: 440, deltaEWBS: 2
-DEBUG:root:2022-07-27 07:12:07(UTC) - PKLMANAGER: applying resampling each 60 seconds
-DEBUG:root:2022-07-27 07:12:07(UTC) - GRAPHGEN: No enough data for deltaSC histogram for Costa Rica
-DEBUG:root:2022-07-27 07:12:07(UTC) - GRAPHGEN: No enough data for deltaSC histogram for Nicaragua
-DEBUG:root:2022-07-27 07:12:07(UTC) - GRAPHGEN: No enough data for deltaSC histogram for El Salvador
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Last Date and Time of data availability for Nicaragua 
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: reading the data for country Nicaragua from 2022-07-26 07:38:05.153633+00:00 to 2022-07-27 07:38:05.153633+00:00 
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening today and yesterday file
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208Nicaragua
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaNicaragua
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data returned contains 1901 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1427 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Resampled data contains 1427 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1427
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/scNicaragua
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data returned contains 1671 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 0 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 0
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsNicaragua
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data returned contains 1692 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 0 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 0
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: dfSC: 0, dfAMQ: 2854, dfEWBS: 0, deltaSC: 0, deltaAMQ: 1427, deltaEWBS: 0
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Last Date and Time of data availability for El Salvador 
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: reading the data for country El Salvador from 2022-07-26 07:38:05.153633+00:00 to 2022-07-27 07:38:05.153633+00:00 
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening today and yesterday file
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208ElSalvador
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaElSalvador
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data returned contains 1896 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1426 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Resampled data contains 1426 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1426
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/scElSalvador
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 6 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 6
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsElSalvador
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 6 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 6
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: dfSC: 30, dfAMQ: 2852, dfEWBS: 30, deltaSC: 6, deltaAMQ: 1426, deltaEWBS: 6
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Last Date and Time of data availability for Costa Rica 
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: reading the data for country Costa Rica from 2022-07-26 07:38:05.749043+00:00 to 2022-07-27 07:38:05.749043+00:00 
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening today and yesterday file
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208CostaRica
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaCostaRica
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data returned contains 1892 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1418 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Resampled data contains 1418 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1418
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/scCostaRica
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 7 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 7
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsCostaRica
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 7 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 7
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: dfSC: 35, dfAMQ: 2836, dfEWBS: 35, deltaSC: 7, deltaAMQ: 1418, deltaEWBS: 7
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Last Date and Time of data availability for Nicaragua 
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: reading the data for country Nicaragua from 2022-07-26 07:38:05.749043+00:00 to 2022-07-27 07:38:05.749043+00:00 
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening today and yesterday file
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208Nicaragua
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaNicaragua
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data returned contains 1901 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1427 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Resampled data contains 1427 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1427
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:05(UTC) - PKLMANAGER: opening bz2 file: pickledata/scNicaragua
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: data returned contains 1671 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 0 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 0
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsNicaragua
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: data returned contains 1692 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 0 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 0
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: dfSC: 0, dfAMQ: 2854, dfEWBS: 0, deltaSC: 0, deltaAMQ: 1427, deltaEWBS: 0
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: Last Date and Time of data availability for El Salvador 
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: reading the data for country El Salvador from 2022-07-26 07:38:05.749043+00:00 to 2022-07-27 07:38:05.749043+00:00 
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: opening today and yesterday file
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208ElSalvador
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaElSalvador
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: data returned contains 1896 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1426 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: Resampled data contains 1426 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1426
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/scElSalvador
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 6 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 6
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsElSalvador
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 6 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 6
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: dfSC: 30, dfAMQ: 2852, dfEWBS: 30, deltaSC: 6, deltaAMQ: 1426, deltaEWBS: 6
+DEBUG:root:2022-07-27 07:38:06(UTC) - GRAPHGEN: No enough data for deltaSC histogram for Nicaragua
+DEBUG:root:2022-07-27 07:38:06(UTC) - GRAPHGEN: No enough data for deltaEWBS histogram for Nicaragua
+DEBUG:root:2022-07-27 07:38:06(UTC) - GRAPHGEN: No data for delta SC timeline for Nicaragua
+DEBUG:root:2022-07-27 07:38:06(UTC) - GRAPHGEN: No data for delta EWBS timeline for Nicaragua
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: Last Date and Time of data availability for Costa Rica 
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: reading the data for country Costa Rica from 2022-07-26 07:38:06.914078+00:00 to 2022-07-27 07:38:06.914078+00:00 
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: opening today and yesterday file
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208CostaRica
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaCostaRica
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: data returned contains 1892 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1418 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: Resampled data contains 1418 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1418
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:06(UTC) - PKLMANAGER: opening bz2 file: pickledata/scCostaRica
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 7 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 7
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsCostaRica
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 7 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 7
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: dfSC: 35, dfAMQ: 2836, dfEWBS: 35, deltaSC: 7, deltaAMQ: 1418, deltaEWBS: 7
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: Last Date and Time of data availability for Nicaragua 
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: reading the data for country Nicaragua from 2022-07-26 07:38:06.914078+00:00 to 2022-07-27 07:38:06.914078+00:00 
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: opening today and yesterday file
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208Nicaragua
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaNicaragua
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: data returned contains 1901 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1427 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: Resampled data contains 1427 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1427
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/scNicaragua
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: data returned contains 1671 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 0 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 0
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsNicaragua
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: data returned contains 1692 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 0 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 0
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: dfSC: 0, dfAMQ: 2854, dfEWBS: 0, deltaSC: 0, deltaAMQ: 1427, deltaEWBS: 0
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: Last Date and Time of data availability for El Salvador 
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: reading the data for country El Salvador from 2022-07-26 07:38:06.914078+00:00 to 2022-07-27 07:38:06.914078+00:00 
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: opening today and yesterday file
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208ElSalvador
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaElSalvador
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: data returned contains 1896 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1426 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: Resampled data contains 1426 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1426
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/scElSalvador
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 6 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 6
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsElSalvador
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 6 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 6
+DEBUG:root:2022-07-27 07:38:07(UTC) - PKLMANAGER: dfSC: 30, dfAMQ: 2852, dfEWBS: 30, deltaSC: 6, deltaAMQ: 1426, deltaEWBS: 6
+DEBUG:root:2022-07-27 07:38:07(UTC) - GRAPHGEN: No enough data for deltaSC histogram for Nicaragua
+DEBUG:root:2022-07-27 07:38:07(UTC) - GRAPHGEN: No enough data for deltaEWBS histogram for Nicaragua
+DEBUG:root:2022-07-27 07:38:07(UTC) - GRAPHGEN: No data for delta SC timeline for Nicaragua
+DEBUG:root:2022-07-27 07:38:08(UTC) - GRAPHGEN: No data for delta EWBS timeline for Nicaragua
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: Last Date and Time of data availability for Costa Rica 
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: reading the data for country Costa Rica from 2022-07-27 00:00:00+00:00 to 2022-07-27 07:38:08.117968+00:00 
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: opening today's file
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208CostaRica
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: data returned contains 419 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 419 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: Resampled data contains 419 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 419
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/scCostaRica
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 3 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 3
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsCostaRica
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 3 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 3
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: dfSC: 15, dfAMQ: 838, dfEWBS: 15, deltaSC: 3, deltaAMQ: 419, deltaEWBS: 3
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: Last Date and Time of data availability for Nicaragua 
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: reading the data for country Nicaragua from 2022-07-27 00:00:00+00:00 to 2022-07-27 07:38:08.117968+00:00 
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: opening today's file
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208Nicaragua
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: data returned contains 423 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 423 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: Resampled data contains 423 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 423
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/scNicaragua
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: data returned contains 1671 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 0 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 0
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsNicaragua
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: data returned contains 1692 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 0 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 0
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: dfSC: 0, dfAMQ: 846, dfEWBS: 0, deltaSC: 0, deltaAMQ: 423, deltaEWBS: 0
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: Last Date and Time of data availability for El Salvador 
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: reading the data for country El Salvador from 2022-07-27 00:00:00+00:00 to 2022-07-27 07:38:08.117968+00:00 
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: opening today's file
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208ElSalvador
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: data returned contains 440 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 440 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: Resampled data contains 440 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 440
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/scElSalvador
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 2 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 2
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsElSalvador
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 2 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 2
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: dfSC: 10, dfAMQ: 880, dfEWBS: 10, deltaSC: 2, deltaAMQ: 440, deltaEWBS: 2
+DEBUG:root:2022-07-27 07:38:08(UTC) - GRAPHGEN: No enough data for deltaSC histogram for Costa Rica
+DEBUG:root:2022-07-27 07:38:08(UTC) - GRAPHGEN: No enough data for deltaSC histogram for Nicaragua
+DEBUG:root:2022-07-27 07:38:08(UTC) - GRAPHGEN: No enough data for deltaSC histogram for El Salvador
 /home/fmassin/anaconda3/lib/python3.7/site-packages/bokeh/models/plots.py:815: UserWarning: 
 You are attempting to set `plot.legend.location` on a plot that has zero legends added, this will have no effect.
 
@@ -353,97 +382,554 @@ You are attempting to set `plot.legend.click_policy` on a plot that has zero leg
 Before legend properties can be set, you must add a Legend explicitly, or call a glyph method with a legend parameter set.
 
   warnings.warn(_LEGEND_EMPTY_WARNING % attr)
-DEBUG:root:2022-07-27 07:12:08(UTC) - GRAPHGEN: No enough data for deltaEWBS histogram for Costa Rica
-DEBUG:root:2022-07-27 07:12:08(UTC) - GRAPHGEN: No enough data for deltaEWBS histogram for Nicaragua
-DEBUG:root:2022-07-27 07:12:08(UTC) - GRAPHGEN: No enough data for deltaEWBS histogram for El Salvador
-DEBUG:root:2022-07-27 07:12:08(UTC) - GRAPHGEN: No data for delta SC timeline for Nicaragua
-DEBUG:root:2022-07-27 07:12:08(UTC) - GRAPHGEN: No data for delta EWBS timeline for Nicaragua
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: Last Date and Time of data availability for Costa Rica 
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: reading the data for country Costa Rica from 2022-07-26 00:00:00+00:00 to 2022-07-27 00:00:00+00:00 
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: opening today and yesterday file
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208CostaRica
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaCostaRica
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: data returned contains 1892 of rows and 2 of columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: applying filter based on datetime start and end
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: Applying the date and time filter....
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1474 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: Resampled data contains 1474 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: setting delta AMQ column for histogram
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1474
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: Loading Delta SC data...
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/scCostaRica
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: applying datetime filter to delta SC
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 6 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: setting delta SC column for histogram
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 6
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: Loading Delta EWBS data...
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsCostaRica
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 6 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 6
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: dfSC: 30, dfAMQ: 2948, dfEWBS: 30, deltaSC: 6, deltaAMQ: 1474, deltaEWBS: 6
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: Last Date and Time of data availability for Nicaragua 
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: reading the data for country Nicaragua from 2022-07-26 00:00:00+00:00 to 2022-07-27 00:00:00+00:00 
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: opening today and yesterday file
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208Nicaragua
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaNicaragua
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: data returned contains 1901 of rows and 2 of columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: applying filter based on datetime start and end
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: Applying the date and time filter....
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1479 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: Resampled data contains 1479 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: setting delta AMQ column for histogram
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1479
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: Loading Delta SC data...
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/scNicaragua
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: data returned contains 1671 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: applying datetime filter to delta SC
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 1 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: setting delta SC column for histogram
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 1
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: Loading Delta EWBS data...
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsNicaragua
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: data returned contains 1692 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 1 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 1
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: dfSC: 5, dfAMQ: 2958, dfEWBS: 5, deltaSC: 1, deltaAMQ: 1479, deltaEWBS: 1
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: Last Date and Time of data availability for El Salvador 
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: reading the data for country El Salvador from 2022-07-26 00:00:00+00:00 to 2022-07-27 00:00:00+00:00 
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: opening today and yesterday file
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208ElSalvador
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaElSalvador
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: data returned contains 1896 of rows and 2 of columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: applying filter based on datetime start and end
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: Applying the date and time filter....
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1457 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: Resampled data contains 1457 rows and 2 columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: setting delta AMQ column for histogram
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1457
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: Loading Delta SC data...
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/scElSalvador
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: applying datetime filter to delta SC
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 12 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: setting delta SC column for histogram
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 12
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: Loading Delta EWBS data...
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsElSalvador
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 12 rows and 5 columns
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 12
-DEBUG:root:2022-07-27 07:12:08(UTC) - PKLMANAGER: dfSC: 60, dfAMQ: 2914, dfEWBS: 60, deltaSC: 12, deltaAMQ: 1457, deltaEWBS: 12
-DEBUG:root:2022-07-27 07:12:08(UTC) - GRAPHGEN: No enough data for deltaSC histogram for Nicaragua
-DEBUG:root:2022-07-27 07:12:09(UTC) - GRAPHGEN: No enough data for deltaEWBS histogram for Nicaragua
-DEBUG:root:2022-07-27 07:12:09(UTC) - PKLMANAGER: Last Date and Time of data availability for Costa Rica 
-DEBUG:root:2022-07-27 07:12:09(UTC) - PKLMANAGER: reading the data for country Costa Rica from 2022-07-20 00:00:00+00:00 to 2022-07-27 07:12:09.512621+00:00 
-DEBUG:root:2022-07-27 07:12:09(UTC) - PKLMANAGER: Open data for the last year ...
-DEBUG:root:2022-07-27 07:12:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208CostaRica
-DEBUG:root:2022-07-27 07:12:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaCostaRica
-DEBUG:root:2022-07-27 07:12:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLwCostaRica
+DEBUG:root:2022-07-27 07:38:08(UTC) - GRAPHGEN: No enough data for deltaEWBS histogram for Costa Rica
+DEBUG:root:2022-07-27 07:38:08(UTC) - GRAPHGEN: No enough data for deltaEWBS histogram for Nicaragua
+DEBUG:root:2022-07-27 07:38:08(UTC) - GRAPHGEN: No enough data for deltaEWBS histogram for El Salvador
+DEBUG:root:2022-07-27 07:38:08(UTC) - GRAPHGEN: No data for delta SC timeline for Nicaragua
+DEBUG:root:2022-07-27 07:38:08(UTC) - GRAPHGEN: No data for delta EWBS timeline for Nicaragua
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: Last Date and Time of data availability for Costa Rica 
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: reading the data for country Costa Rica from 2022-07-26 00:00:00+00:00 to 2022-07-27 00:00:00+00:00 
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: opening today and yesterday file
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208CostaRica
+DEBUG:root:2022-07-27 07:38:08(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaCostaRica
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: data returned contains 1892 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1474 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: Resampled data contains 1474 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1474
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/scCostaRica
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 6 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 6
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsCostaRica
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 6 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 6
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: dfSC: 30, dfAMQ: 2948, dfEWBS: 30, deltaSC: 6, deltaAMQ: 1474, deltaEWBS: 6
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: Last Date and Time of data availability for Nicaragua 
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: reading the data for country Nicaragua from 2022-07-26 00:00:00+00:00 to 2022-07-27 00:00:00+00:00 
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: opening today and yesterday file
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208Nicaragua
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaNicaragua
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: data returned contains 1901 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1479 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: Resampled data contains 1479 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1479
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/scNicaragua
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: data returned contains 1671 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 1 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 1
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsNicaragua
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: data returned contains 1692 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 1 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 1
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: dfSC: 5, dfAMQ: 2958, dfEWBS: 5, deltaSC: 1, deltaAMQ: 1479, deltaEWBS: 1
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: Last Date and Time of data availability for El Salvador 
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: reading the data for country El Salvador from 2022-07-26 00:00:00+00:00 to 2022-07-27 00:00:00+00:00 
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: opening today and yesterday file
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208ElSalvador
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaElSalvador
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: data returned contains 1896 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 1457 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: Resampled data contains 1457 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 1457
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/scElSalvador
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 12 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 12
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsElSalvador
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 12 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 12
+DEBUG:root:2022-07-27 07:38:09(UTC) - PKLMANAGER: dfSC: 60, dfAMQ: 2914, dfEWBS: 60, deltaSC: 12, deltaAMQ: 1457, deltaEWBS: 12
+DEBUG:root:2022-07-27 07:38:09(UTC) - GRAPHGEN: No enough data for deltaSC histogram for Nicaragua
+DEBUG:root:2022-07-27 07:38:09(UTC) - GRAPHGEN: No enough data for deltaEWBS histogram for Nicaragua
+DEBUG:root:2022-07-27 07:38:10(UTC) - PKLMANAGER: Last Date and Time of data availability for Costa Rica 
+DEBUG:root:2022-07-27 07:38:10(UTC) - PKLMANAGER: reading the data for country Costa Rica from 2022-07-20 00:00:00+00:00 to 2022-07-27 07:38:10.215172+00:00 
+DEBUG:root:2022-07-27 07:38:10(UTC) - PKLMANAGER: Open data for the last year ...
+DEBUG:root:2022-07-27 07:38:10(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208CostaRica
+DEBUG:root:2022-07-27 07:38:10(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaCostaRica
+DEBUG:root:2022-07-27 07:38:10(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLwCostaRica
+DEBUG:root:2022-07-27 07:38:10(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLmCostaRica
+DEBUG:root:2022-07-27 07:38:10(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLyCostaRica
+DEBUG:root:2022-07-27 07:38:13(UTC) - PKLMANAGER: applying resampling each 60 seconds
+DEBUG:root:2022-07-27 07:38:16(UTC) - PKLMANAGER: data returned contains 104914 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:16(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:16(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:16(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 8722 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:16(UTC) - PKLMANAGER: Resampled data contains 8722 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:16(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:16(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 8722
+DEBUG:root:2022-07-27 07:38:16(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:16(UTC) - PKLMANAGER: opening bz2 file: pickledata/scCostaRica
+DEBUG:root:2022-07-27 07:38:16(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:16(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:16(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 232 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:16(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:16(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 232
+DEBUG:root:2022-07-27 07:38:16(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:16(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsCostaRica
+DEBUG:root:2022-07-27 07:38:17(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:17(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:17(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 232 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:17(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:17(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 232
+DEBUG:root:2022-07-27 07:38:17(UTC) - PKLMANAGER: dfSC: 1160, dfAMQ: 17444, dfEWBS: 1160, deltaSC: 232, deltaAMQ: 8722, deltaEWBS: 232
+DEBUG:root:2022-07-27 07:38:17(UTC) - PKLMANAGER: Last Date and Time of data availability for Nicaragua 
+DEBUG:root:2022-07-27 07:38:17(UTC) - PKLMANAGER: reading the data for country Nicaragua from 2022-06-27 00:00:00+00:00 to 2022-07-27 07:37:58.021177+00:00 
+DEBUG:root:2022-07-27 07:38:17(UTC) - PKLMANAGER: Open data for the last year ...
+DEBUG:root:2022-07-27 07:38:17(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208Nicaragua
+DEBUG:root:2022-07-27 07:38:17(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaNicaragua
+DEBUG:root:2022-07-27 07:38:17(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLwNicaragua
+DEBUG:root:2022-07-27 07:38:17(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLmNicaragua
+DEBUG:root:2022-07-27 07:38:17(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLyNicaragua
+DEBUG:root:2022-07-27 07:38:18(UTC) - PKLMANAGER: applying resampling each 60 seconds
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: data returned contains 104915 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 104915 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: Resampled data contains 104915 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 104915
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: opening bz2 file: pickledata/scNicaragua
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: data returned contains 1671 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 1671 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 1671
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsNicaragua
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: data returned contains 1692 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 1692 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 1692
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: dfSC: 8355, dfAMQ: 209830, dfEWBS: 8460, deltaSC: 1671, deltaAMQ: 104915, deltaEWBS: 1692
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: Last Date and Time of data availability for El Salvador 
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: reading the data for country El Salvador from 2021-07-27 00:00:00+00:00 to 2022-07-27 07:37:44.007761+00:00 
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: Open data for the last year ...
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208ElSalvador
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaElSalvador
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLwElSalvador
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLmElSalvador
+DEBUG:root:2022-07-27 07:38:22(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLyElSalvador
+DEBUG:root:2022-07-27 07:38:23(UTC) - PKLMANAGER: applying resampling each 60 seconds
+DEBUG:root:2022-07-27 07:38:26(UTC) - PKLMANAGER: applying resampling each 60 seconds
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: data returned contains 104914 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 2098 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: Resampled data contains 2098 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 2098
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: opening bz2 file: pickledata/scCostaRica
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 70 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 70
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsCostaRica
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 70 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 70
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: dfSC: 350, dfAMQ: 4196, dfEWBS: 350, deltaSC: 70, deltaAMQ: 2098, deltaEWBS: 70
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: Last Date and Time of data availability for Nicaragua 
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: reading the data for country Nicaragua from 2022-07-20 00:00:00+00:00 to 2022-07-27 07:38:10.215172+00:00 
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: Open data for the last year ...
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208Nicaragua
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaNicaragua
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLwNicaragua
+DEBUG:root:2022-07-27 07:38:27(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLmNicaragua
+DEBUG:root:2022-07-27 07:38:28(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLyNicaragua
+DEBUG:root:2022-07-27 07:38:28(UTC) - PKLMANAGER: data returned contains 104918 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:28(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:28(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:28(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 104918 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:28(UTC) - PKLMANAGER: Resampled data contains 104918 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:29(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:29(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 104918
+DEBUG:root:2022-07-27 07:38:29(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:29(UTC) - PKLMANAGER: opening bz2 file: pickledata/scElSalvador
+DEBUG:root:2022-07-27 07:38:29(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:29(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:29(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 2022 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:29(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:29(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 2022
+DEBUG:root:2022-07-27 07:38:29(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:29(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsElSalvador
+DEBUG:root:2022-07-27 07:38:29(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:29(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:29(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 2022 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:29(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:29(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 2022
+DEBUG:root:2022-07-27 07:38:29(UTC) - PKLMANAGER: dfSC: 10110, dfAMQ: 209836, dfEWBS: 10110, deltaSC: 2022, deltaAMQ: 104918, deltaEWBS: 2022
+DEBUG:root:2022-07-27 07:38:33(UTC) - PKLMANAGER: applying resampling each 60 seconds
+WARNING:bokeh.core.validation.check:W-1000 (MISSING_RENDERERS): Plot has no renderers: Figure(id='2435', ...)
+WARNING:bokeh.core.validation.check:W-1000 (MISSING_RENDERERS): Plot has no renderers: Figure(id='2631', ...)
+DEBUG:root:2022-07-27 07:38:36(UTC) - PKLMANAGER: data returned contains 104915 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:36(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:36(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 8723 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: Resampled data contains 8723 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 8723
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: opening bz2 file: pickledata/scNicaragua
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: data returned contains 1671 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 82 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 82
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsNicaragua
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: data returned contains 1692 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 82 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 82
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: dfSC: 410, dfAMQ: 17446, dfEWBS: 410, deltaSC: 82, deltaAMQ: 8723, deltaEWBS: 82
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: Last Date and Time of data availability for El Salvador 
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: reading the data for country El Salvador from 2022-06-27 00:00:00+00:00 to 2022-07-27 07:37:58.021177+00:00 
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: Open data for the last year ...
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208ElSalvador
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaElSalvador
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLwElSalvador
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLmElSalvador
+DEBUG:root:2022-07-27 07:38:37(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLyElSalvador
+DEBUG:root:2022-07-27 07:38:40(UTC) - PKLMANAGER: applying resampling each 60 seconds
+DEBUG:root:2022-07-27 07:38:41(UTC) - PKLMANAGER: applying resampling each 60 seconds
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: data returned contains 104918 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 8726 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: Resampled data contains 8726 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 8726
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: opening bz2 file: pickledata/scElSalvador
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 221 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 221
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsElSalvador
+Linux
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 221 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 221
+DEBUG:root:2022-07-27 07:38:43(UTC) - PKLMANAGER: dfSC: 1105, dfAMQ: 17452, dfEWBS: 1105, deltaSC: 221, deltaAMQ: 8726, deltaEWBS: 221
+DEBUG:root:2022-07-27 07:38:44(UTC) - PKLMANAGER: Last Date and Time of data availability for Costa Rica 
+DEBUG:root:2022-07-27 07:38:44(UTC) - PKLMANAGER: reading the data for country Costa Rica from 2021-07-27 00:00:00+00:00 to 2022-07-27 07:38:44.666351+00:00 
+DEBUG:root:2022-07-27 07:38:44(UTC) - PKLMANAGER: Open data for the last year ...
+DEBUG:root:2022-07-27 07:38:44(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208CostaRica
+DEBUG:root:2022-07-27 07:38:44(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaCostaRica
+DEBUG:root:2022-07-27 07:38:44(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLwCostaRica
+DEBUG:root:2022-07-27 07:38:44(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLmCostaRica
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: data returned contains 104915 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 2099 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: Resampled data contains 2099 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 2099
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: opening bz2 file: pickledata/scNicaragua
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: data returned contains 1671 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLyCostaRica
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 4 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 4
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsNicaragua
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: data returned contains 1692 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 4 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 4
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: dfSC: 20, dfAMQ: 4198, dfEWBS: 20, deltaSC: 4, deltaAMQ: 2099, deltaEWBS: 4
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: Last Date and Time of data availability for El Salvador 
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: reading the data for country El Salvador from 2022-07-20 00:00:00+00:00 to 2022-07-27 07:38:10.215172+00:00 
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: Open data for the last year ...
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208ElSalvador
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaElSalvador
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLwElSalvador
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLmElSalvador
+DEBUG:root:2022-07-27 07:38:45(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLyElSalvador
+DEBUG:root:2022-07-27 07:38:48(UTC) - PKLMANAGER: applying resampling each 60 seconds
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: data returned contains 104918 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 2102 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: Resampled data contains 2102 rows and 2 columns
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 2102
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: opening bz2 file: pickledata/scElSalvador
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 49 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 49
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsElSalvador
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 49 rows and 5 columns
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 49
+DEBUG:root:2022-07-27 07:38:51(UTC) - PKLMANAGER: dfSC: 245, dfAMQ: 4204, dfEWBS: 245, deltaSC: 49, deltaAMQ: 2102, deltaEWBS: 49
+DEBUG:root:2022-07-27 07:38:52(UTC) - PKLMANAGER: Last Date and Time of data availability for Costa Rica 
+DEBUG:root:2022-07-27 07:38:52(UTC) - PKLMANAGER: reading the data for country Costa Rica from 2022-06-27 00:00:00+00:00 to 2022-07-27 07:38:52.508477+00:00 
+DEBUG:root:2022-07-27 07:38:52(UTC) - PKLMANAGER: Open data for the last year ...
+DEBUG:root:2022-07-27 07:38:52(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208CostaRica
+DEBUG:root:2022-07-27 07:38:52(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaCostaRica
+DEBUG:root:2022-07-27 07:38:52(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLwCostaRica
+DEBUG:root:2022-07-27 07:38:52(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLmCostaRica
+DEBUG:root:2022-07-27 07:38:53(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLyCostaRica
+DEBUG:root:2022-07-27 07:38:59(UTC) - PKLMANAGER: applying resampling each 60 seconds
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: data returned contains 104914 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 104914 rows and 2 columns
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: Resampled data contains 104914 rows and 2 columns
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 104914
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: opening bz2 file: pickledata/scCostaRica
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 1395 rows and 5 columns
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 1395
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsCostaRica
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 1395 rows and 5 columns
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 1395
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: dfSC: 6975, dfAMQ: 209828, dfEWBS: 6975, deltaSC: 1395, deltaAMQ: 104914, deltaEWBS: 1395
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: Last Date and Time of data availability for Nicaragua 
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: reading the data for country Nicaragua from 2021-07-27 00:00:00+00:00 to 2022-07-27 07:38:44.666351+00:00 
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: Open data for the last year ...
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208Nicaragua
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaNicaragua
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLwNicaragua
+DEBUG:root:2022-07-27 07:39:03(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLmNicaragua
+DEBUG:root:2022-07-27 07:39:04(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLyNicaragua
+DEBUG:root:2022-07-27 07:39:05(UTC) - PKLMANAGER: applying resampling each 60 seconds
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: data returned contains 104914 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 8722 rows and 2 columns
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: Resampled data contains 8722 rows and 2 columns
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 8722
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/scCostaRica
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 232 rows and 5 columns
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 232
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsCostaRica
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 232 rows and 5 columns
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 232
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: dfSC: 1160, dfAMQ: 17444, dfEWBS: 1160, deltaSC: 232, deltaAMQ: 8722, deltaEWBS: 232
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: Last Date and Time of data availability for Nicaragua 
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: reading the data for country Nicaragua from 2022-06-27 00:00:00+00:00 to 2022-07-27 07:38:52.508477+00:00 
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: Open data for the last year ...
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208Nicaragua
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaNicaragua
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLwNicaragua
+DEBUG:root:2022-07-27 07:39:09(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLmNicaragua
+DEBUG:root:2022-07-27 07:39:10(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLyNicaragua
+DEBUG:root:2022-07-27 07:39:19(UTC) - PKLMANAGER: applying resampling each 60 seconds
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: data returned contains 104921 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 104921 rows and 2 columns
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: Resampled data contains 104921 rows and 2 columns
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 104921
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: opening bz2 file: pickledata/scNicaragua
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: data returned contains 1671 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 1671 rows and 5 columns
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 1671
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsNicaragua
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: data returned contains 1692 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 1692 rows and 5 columns
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 1692
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: dfSC: 8355, dfAMQ: 209842, dfEWBS: 8460, deltaSC: 1671, deltaAMQ: 104921, deltaEWBS: 1692
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: Last Date and Time of data availability for El Salvador 
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: reading the data for country El Salvador from 2021-07-27 00:00:00+00:00 to 2022-07-27 07:38:44.666351+00:00 
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: Open data for the last year ...
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208ElSalvador
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaElSalvador
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLwElSalvador
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLmElSalvador
+DEBUG:root:2022-07-27 07:39:23(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLyElSalvador
+DEBUG:root:2022-07-27 07:39:24(UTC) - PKLMANAGER: applying resampling each 60 seconds
+DEBUG:root:2022-07-27 07:39:26(UTC) - PKLMANAGER: applying resampling each 60 seconds
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: data returned contains 104921 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 8729 rows and 2 columns
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: Resampled data contains 8729 rows and 2 columns
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 8729
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: opening bz2 file: pickledata/scNicaragua
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: data returned contains 1671 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 82 rows and 5 columns
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 82
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsNicaragua
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: data returned contains 1692 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 82 rows and 5 columns
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 82
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: dfSC: 410, dfAMQ: 17458, dfEWBS: 410, deltaSC: 82, deltaAMQ: 8729, deltaEWBS: 82
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: Last Date and Time of data availability for El Salvador 
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: reading the data for country El Salvador from 2022-06-27 00:00:00+00:00 to 2022-07-27 07:38:52.508477+00:00 
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: Open data for the last year ...
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208ElSalvador
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaElSalvador
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLwElSalvador
+DEBUG:root:2022-07-27 07:39:27(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLmElSalvador
+DEBUG:root:2022-07-27 07:39:28(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLyElSalvador
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: data returned contains 104918 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 104918 rows and 2 columns
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: Resampled data contains 104918 rows and 2 columns
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 104918
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: opening bz2 file: pickledata/scElSalvador
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 2022 rows and 5 columns
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 2022
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsElSalvador
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 2022 rows and 5 columns
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 2022
+DEBUG:root:2022-07-27 07:39:29(UTC) - PKLMANAGER: dfSC: 10110, dfAMQ: 209836, dfEWBS: 10110, deltaSC: 2022, deltaAMQ: 104918, deltaEWBS: 2022
+DEBUG:root:2022-07-27 07:39:31(UTC) - PKLMANAGER: applying resampling each 60 seconds
+WARNING:bokeh.core.validation.check:W-1000 (MISSING_RENDERERS): Plot has no renderers: Figure(id='2631', ...)
+WARNING:bokeh.core.validation.check:W-1000 (MISSING_RENDERERS): Plot has no renderers: Figure(id='2435', ...)
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: data returned contains 104918 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 8726 rows and 2 columns
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: Resampled data contains 8726 rows and 2 columns
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 8726
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: opening bz2 file: pickledata/scElSalvador
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 221 rows and 5 columns
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 221
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsElSalvador
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: data returned contains 2022 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 221 rows and 5 columns
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 221
+DEBUG:root:2022-07-27 07:39:34(UTC) - PKLMANAGER: dfSC: 1105, dfAMQ: 17452, dfEWBS: 1105, deltaSC: 221, deltaAMQ: 8726, deltaEWBS: 221
+DEBUG:root:2022-07-27 07:39:35(UTC) - PKLMANAGER: Last Date and Time of data availability for Costa Rica 
+DEBUG:root:2022-07-27 07:39:35(UTC) - PKLMANAGER: reading the data for country Costa Rica from 2021-07-27 00:00:00+00:00 to 2022-07-27 07:39:35.845726+00:00 
+DEBUG:root:2022-07-27 07:39:35(UTC) - PKLMANAGER: Open data for the last year ...
+DEBUG:root:2022-07-27 07:39:35(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208CostaRica
+DEBUG:root:2022-07-27 07:39:35(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaCostaRica
+DEBUG:root:2022-07-27 07:39:35(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLwCostaRica
+DEBUG:root:2022-07-27 07:39:35(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLmCostaRica
+DEBUG:root:2022-07-27 07:39:36(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLyCostaRica
+Linux
+DEBUG:root:2022-07-27 07:39:49(UTC) - PKLMANAGER: applying resampling each 60 seconds
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: data returned contains 104920 of rows and 2 of columns
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: applying filter based on datetime start and end
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: Applying the date and time filter....
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: After Applying date and time filter the returned data contains 104920 rows and 2 columns
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: Resampled data contains 104920 rows and 2 columns
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: setting delta AMQ column for histogram
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: data for deltaAMQ histogram has a size of 104920
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: Loading Delta SC data...
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: opening bz2 file: pickledata/scCostaRica
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: applying datetime filter to delta SC
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 1395 rows and 5 columns
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: setting delta SC column for histogram
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: deltaSC for histogram contains a size of 1395
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: Loading Delta EWBS data...
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: opening bz2 file: pickledata/ewbsCostaRica
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: data returned contains 1395 of rows and 5 of columns
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: applying date and time filter to delta EWBS...
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: After Applying date and time filter the dataframe contains 1395 rows and 5 columns
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: setting deltaEWBS column for histogram
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: deltaEWBS for histogram contains a size of 1395
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: dfSC: 6975, dfAMQ: 209840, dfEWBS: 6975, deltaSC: 1395, deltaAMQ: 104920, deltaEWBS: 1395
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: Last Date and Time of data availability for Nicaragua 
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: reading the data for country Nicaragua from 2021-07-27 00:00:00+00:00 to 2022-07-27 07:39:35.845726+00:00 
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: Open data for the last year ...
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: opening bz2 file: pickledata/hb2022208Nicaragua
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbYdaNicaragua
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLwNicaragua
+DEBUG:root:2022-07-27 07:39:54(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLmNicaragua
+DEBUG:root:2022-07-27 07:39:55(UTC) - PKLMANAGER: opening bz2 file: pickledata/hbLyNicaragua

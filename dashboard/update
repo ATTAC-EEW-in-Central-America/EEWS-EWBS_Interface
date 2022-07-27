@@ -1,3 +1,4 @@
-cd /home/fmassin/ewbs-converter/dashboard/ 
-git pull > update.log 2>&1
-/home/fmassin/anaconda3/bin/python dashboard_deltatimes.py html >> update.log 2>&1
+git  -C  /home/fmassin/ewbs-converter pull > update.log 2>&1
+rsync -avzl /home/fmassin/ewbs-converter/ /home/fmassin/ewbs-converter-clean/ --exclude "*git*"
+git -C  /home/fmassin/ewbs-converter-clean add /home/fmassin/ewbs-converter-clean/*/* /home/fmassin/ewbs-converter-clean/*
+git -C  /home/fmassin/ewbs-converter-clean commit -m "up"
