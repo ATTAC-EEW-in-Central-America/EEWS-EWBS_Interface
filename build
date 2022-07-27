@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd dashboard/ 
+pipenv install -r requirements.txt
+python dashboard_deltatimes.py html 
+mv dashboard_deltatimes.html ../index.html
