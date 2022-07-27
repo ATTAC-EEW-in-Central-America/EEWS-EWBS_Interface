@@ -1,8 +1,10 @@
-git  -C  /home/fmassin/ewbs-converter pull 
+#!/bin/bash
+
+git  -C  /home/fmassin/ewbs-converter       pull 
 git  -C  /home/fmassin/ewbs-converter-clean pull 
 
 rsync -avzl /home/fmassin/ewbs-converter/ /home/fmassin/ewbs-converter-clean/ --exclude "*git*"
 
-git -C  /home/fmassin/ewbs-converter-clean add /home/fmassin/ewbs-converter-clean/*/* /home/fmassin/ewbs-converter-clean/*
-git -C  /home/fmassin/ewbs-converter-clean commit -m "up"
+git -C  /home/fmassin/ewbs-converter-clean  add /home/fmassin/ewbs-converter-clean/*/* /home/fmassin/ewbs-converter-clean/*
+git -C  /home/fmassin/ewbs-converter-clean  commit -m "up"
 git -C  /home/fmassin/ewbs-converter-clean  push --set-upstream origin master
