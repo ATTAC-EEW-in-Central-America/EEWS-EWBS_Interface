@@ -161,7 +161,7 @@ if __name__ == "__main__":
 		firstTime = False
 		
 		if not os.path.exists(folderlog+sCountry):
-			log(country + " folder does not exist. Continue with the next country..")
+			log(folderlog+sCountry + ": " + country + " folder does not exist. Continue with the next country..")
 			continue
 			
 		if dic != 1 and dic != -1:
