@@ -1,5 +1,5 @@
 #!/bin/bash
-
+git pull
 cd dashboard/ 
 pipenv install -r requirements.txt
 python dashboard_deltatimes.py html 
