@@ -86,9 +86,13 @@ def setScreenSize(sWidth=sWidth,sHeight=sHeight):
 		log('this is Linux OS')
 		import subprocess
 		import re
-		xrandrOutput = str(subprocess.Popen(['xrandr'], stdout=subprocess.PIPE).communicate()[0])
-		matchObj = re.findall(r'current\s(\d+) x (\d+)', xrandrOutput)
-		if matchObj:
+                matchObj=False
+                try:
+                    xrandrOutput = str(subprocess.Popen(['xrandr'], stdout=subprocess.PIPE).communicate()[0])
+		    matchObj = re.findall(r'current\s(\d+) x (\d+)', xrandrOutput)
+                except:
+                    print('Cannot use xrandr')
+                if matchObj:
 			sWidth = int(matchObj[0][0])
 			sHeight = int(matchObj[0][1])
 		else:
