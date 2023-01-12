@@ -171,9 +171,7 @@ class PickleDataManage:
 		self.log( 'storing the dataframe in a bz2 file named: %s' % filename)
 		
 		try:
-			bzfile = bz2.BZ2File(filename, 'wb')
-			pickle.dump(df,bzfile)
-			bzfile.close()
+			df.to_pickle(filename,compression="bz2")
 		except Exception as e:
 			self.log( 'something went wrong while saving in a bz2 file. See below for more details:\n' )
 			self.log( repr( e ) )
@@ -186,11 +184,7 @@ class PickleDataManage:
 	def bz2todf(self, f, encoding="latin1"):
 		self.log( 'opening bz2 file: %s' % f )
 		try:
-			tmp = bz2.BZ2File(f,'rb')
-			if sys.version_info.major > 2:
-				dfData = pickle.load(tmp, encoding=encoding)
-			else:
-				dfData = pickle.load(tmp)
+			dfData = pd.read_pickle( f, compression = "bz2" )
 			return dfData
 		except Exception as e:
 			self.log( 'error loading the file: %s' % f )
