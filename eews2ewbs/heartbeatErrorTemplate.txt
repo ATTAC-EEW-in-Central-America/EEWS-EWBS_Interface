@@ -4,7 +4,7 @@ Este mensaje es generado automáticamente en la computadora EWBS de ${COUNTRY} e
 
 No se ha recibido mensajes de heartbeats por más de ${TIMESTR}. Lo que puede indicar que la aplicación que envía los mensajes de alerta desde el centro sismológico podría estar caído. Por favor, contacta al operador de la red sismológica para reportar este fallo.
 
-De tu lado, por favor, busca primeramente la terminal de linea de comando, donde corre el programa stompy2ewbs.py, por algún mensaje de error diferente al mensaje de "ERROR: heartbeat last report".
+De tu lado, por favor, busca primeramente la terminal de linea de comando, donde corre el programa eew2ewbs.py, por algún mensaje de error diferente al mensaje de "ERROR: heartbeat last report".
 
 Segundo, puedes detener la ejecución cerrando la terminal o con la combinación de teclados: crtl-c 
 (si no responde crtl+c entonces cierre la ventana). No olvide volver a iniciarla con los siguientes pasos:
@@ -13,7 +13,7 @@ Segundo, puedes detener la ejecución cerrando la terminal o con la combinación
 2. ejecutar:
     cd %userprofile%
     cd ewbs-converter\eews2ewbs\
-    cmd /c C:\Python27\python.exe stompy2ewbs.py
+    cmd /c C:\Python27\python.exe eew2ewbs.py
 
 
 Espera por información en la consola. Es posible que salga el mensaje: "ERROR: heartbeat last report" nuevamente

@@ -8,9 +8,9 @@ class Configuration:
         
         #User provides input information from a file
         if sys.version_info.major == 2:
-            print "User configuration file 'stompy2ewbs.cfg'"
+            print "User configuration file 'eew2ewbs.cfg'"
         else:
-            print("User configuration file 'stompy2ewbs.cfg'")
+            print("User configuration file 'eew2ewbs.cfg'")
         
         self.host = None
         self.port = None
@@ -43,14 +43,14 @@ class Configuration:
         
         config = ConfigParser.RawConfigParser()
         try:
-            self.configFilePath = r'stompy2ewbs.cfg' #hardcoded and it must be in the same folder as the stompy2ewbs.py script
+            self.configFilePath = r'eew2ewbs.cfg' #hardcoded and it must be in the same folder as the eew2ewbs.py script
             config.read(self.configFilePath)
         except Exception as e:
             if sys.version_info.major == 2:
-                print "Not possible to open the stompy2ewbs.cfg"
+                print "Not possible to open the eew2ewbs.cfg"
                 print "exiting...."
             else:
-                print("Not possible to open the stompy2ewbs.cfg")
+                print("Not possible to open the eew2ewbs.cfg")
                 print ("exiting....")
             sys.exit(1)
             

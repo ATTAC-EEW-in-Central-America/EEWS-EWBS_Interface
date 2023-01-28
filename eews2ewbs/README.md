@@ -64,15 +64,15 @@ The second one (in bold) is the interface for which the setup and configuration 
 
 Aside from the folders there are: templates files, the main python script that starts the interface, the list of contacts to whom the errors are reported and the configuration file. So basically the next list of files are on the root folder:
 
-1. stompy2ewbs.py
-2. stompy2ewbs.cfg
+1. eew2ewbs.py
+2. eew2ewbs.cfg
 3. template files (heartbeat, red terminal and other tmpl files)
 4. contacts.txt
 
 ## Requirements
 The next programs are needed to run the interface:
 1. Python 2 or 3
-2. stompy (python 2.7) or stomp (python 3)
+2. eew (python 2.7) or stomp (python 3)
 
 Many libraries are imported in order for the interface to run and most of them are part of Python package. Nevertheless, if for some reason any of them is not installed then proceed to install using _pip_.
 
@@ -99,11 +99,11 @@ Doing this setting it will be possible to run Python and ewbsconsole from the co
 
 ## configuration file
 
-The configuration file for the interface is called stompy2ewbs.cfg which must be at the root folder:
+The configuration file for the interface is called eew2ewbs.cfg which must be at the root folder:
 
     %userprofile%\ewbs-converter\eews2ewbs\
 
-Since each datacenter has its own configuration values then there is no one stompy2ewbs.cfg in the git repository. However, there is one example config file which is named _config_example.cfg_ from which it is possible to find out which are the needed variables and using this information it can be possible to create a new stompy2ewbs.cfg.
+Since each datacenter has its own configuration values then there is no one eew2ewbs.cfg in the git repository. However, there is one example config file which is named _config_example.cfg_ from which it is possible to find out which are the needed variables and using this information it can be possible to create a new eew2ewbs.cfg.
 The format of this config file is the well-known [_INI format for Python_](https://docs.python.org/3/library/configparser.html) where there are sections and comments start with #.
 So, based on the concept of sections, there are 6 sections listed below:
 
@@ -199,7 +199,7 @@ For testing purposes there is section with one key-value pair. This is _dryrun_ 
 
 ## Automatic Tasks
 
-There are two main task that has been automated through basic Batch Scripts in Windows; the first one is automatic starting of Red Terminal and running the stompy2ewbs.py script. The second one is automatically parse the log information and compress the information to finally upload or push into gitlab repo for the especific country's data.
+There are two main task that has been automated through basic Batch Scripts in Windows; the first one is automatic starting of Red Terminal and running the eew2ewbs.py script. The second one is automatically parse the log information and compress the information to finally upload or push into gitlab repo for the especific country's data.
 
 ### Automatic Starting of Red Terminal and Interface
 
@@ -216,10 +216,10 @@ REM totally loaded
 timeout /t 60
 REM going to the USER folder
 cd %userprofile%
-REM going to the right path that contains the stompy2ewbs.py script
+REM going to the right path that contains the eew2ewbs.py script
 cd ewbs-converter\eews2ewbs\
 REM Running the script in the term and leaving open 
-cmd /c C:\Python27\python.exe stompy2ewbs.py
+cmd /c C:\Python27\python.exe eew2ewbs.py
 ```
 
 This script must be put into the shell startup which is open through the next commands: `WindowsKey+r` and this will open a small GUI dialog on which it has to be typed: `shell:startup` and once this is executed it will show up a folder on which the previous script must be.

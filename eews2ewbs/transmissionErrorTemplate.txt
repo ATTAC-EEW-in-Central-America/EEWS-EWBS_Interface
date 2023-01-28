@@ -21,14 +21,14 @@ y ejecute en ya mencionado ejecutable.
 Para el segundo caso, debe realizar una verificación más detallada y hacer consultas respectivas al operador 
 de TV digital.
 
-Finalmente, y no está por demás, verifique si la linea de comando de windows está ejecutando el programa stompy2ewbs.py.
+Finalmente, y no está por demás, verifique si la linea de comando de windows está ejecutando el programa eew2ewbs.py.
 Si está corriendo entonces verique por cualquier mensaje de error y si no está corriendo siga los siguientes pasos:
 
 1. abrir una consola de windows (cmd).
 2. ejecutar:
     cd %userprofile%
     cd ewbs-converter\eews2ewbs\
-    cmd /c C:\Python27\python.exe stompy2ewbs.py
+    cmd /c C:\Python27\python.exe eew2ewbs.py
 
 Gracias y saludos!
 
